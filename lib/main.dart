@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cookbook/home.dart';
 
 void main() => runApp(new MyApp());
 
@@ -9,8 +10,13 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Flutter Cookbook',
       theme: new ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.white,
       ),
+      home: HomePage(),
+      debugShowCheckedModeBanner: false,
+      routes: {
+
+      },
     );
   }
 }
