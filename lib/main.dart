@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cookbook/design_basics/using_themes/using_themes.dart';
 import 'package:flutter_cookbook/home.dart';
 
 void main() => runApp(new MyApp());
@@ -15,7 +16,9 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       debugShowCheckedModeBanner: false,
       routes: {
-
+        "/usingThemes": (context) {
+          return UsingThemesPage();
+        },
       },
     );
   }

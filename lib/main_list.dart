@@ -37,11 +37,15 @@ class MainList extends StatelessWidget {
   // Return the list of sub-items
   _getSubItemList(List<Map<String, String>> items) {
     return ListView.builder(
+      primary: false,
       shrinkWrap: true,
       itemBuilder: (context, index) {
         final item = items[index];
         return InkWell(
-          onTap: () {},
+          onTap: () {
+            Navigator.of(context)
+                .pushNamed(item["route"]);
+          },
           child: Container(
             padding: EdgeInsets.all(16.0),
             child: Text(
