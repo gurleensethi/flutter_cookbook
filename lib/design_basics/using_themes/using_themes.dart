@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cookbook/code_page/code_model.dart';
+import 'package:flutter_cookbook/code_page/code_page.dart';
 import 'package:flutter_cookbook/common/PrimaryAppBar.dart';
 import 'package:flutter_cookbook/design_basics/using_themes/using_themes_code.dart'
     as Code;
@@ -18,7 +20,19 @@ class UsingThemesPageState extends State<UsingThemesPage> {
         accentColor: Colors.cyan[600],
       ),
       child: Scaffold(
-        appBar: primaryAppBar(title: "Using Themes"),
+        appBar: primaryAppBar(
+          title: "Using Themes",
+          actions: [
+            IconButton(
+              icon: Icon(
+                Icons.code,
+              ),
+              onPressed: () {
+                _startCodePage(context);
+              },
+            )
+          ],
+        ),
         body: Center(
           child: Container(
             color: Theme.of(context).accentColor,
@@ -35,6 +49,29 @@ class UsingThemesPageState extends State<UsingThemesPage> {
             child: Icon(Icons.add),
           ),
         ),
+      ),
+    );
+  }
+
+  _startCodePage(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) {
+          return CodePage(
+            codes: [
+              CodeModel(
+                  title: "App Theme",
+                  code: Code.code["main_theme"],
+                  description: "The main theme of your application."
+              ),
+              CodeModel(
+                title: "Extending Theme",
+                code: Code.code["theme"],
+                description: "Using theme inside your widget tree."
+              ),
+            ],
+          );
+        },
       ),
     );
   }
