@@ -4,6 +4,7 @@ import 'package:flutter_cookbook/code_page/code_page.dart';
 import 'package:flutter_cookbook/common/PrimaryAppBar.dart';
 import 'package:flutter_cookbook/design_basics/using_themes/using_themes_code.dart'
     as Code;
+import 'package:url_launcher/url_launcher.dart';
 
 class UsingThemesPage extends StatefulWidget {
   @override
@@ -21,16 +22,18 @@ class UsingThemesPageState extends State<UsingThemesPage> {
       ),
       child: Scaffold(
         appBar: primaryAppBar(
+          context: context,
           title: "Using Themes",
-          actions: [
-            IconButton(
-              icon: Icon(
-                Icons.code,
-              ),
-              onPressed: () {
-                _startCodePage(context);
-              },
-            )
+          link: "https://flutter.io/cookbook/design/themes/",
+          codes: [
+            CodeModel(
+                title: "App Theme",
+                code: Code.code["main_theme"],
+                description: "The main theme of your application."),
+            CodeModel(
+                title: "Extending Theme",
+                code: Code.code["theme"],
+                description: "Using theme inside your widget tree."),
           ],
         ),
         body: Center(
@@ -49,29 +52,6 @@ class UsingThemesPageState extends State<UsingThemesPage> {
             child: Icon(Icons.add),
           ),
         ),
-      ),
-    );
-  }
-
-  _startCodePage(BuildContext context) {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (context) {
-          return CodePage(
-            codes: [
-              CodeModel(
-                  title: "App Theme",
-                  code: Code.code["main_theme"],
-                  description: "The main theme of your application."
-              ),
-              CodeModel(
-                title: "Extending Theme",
-                code: Code.code["theme"],
-                description: "Using theme inside your widget tree."
-              ),
-            ],
-          );
-        },
       ),
     );
   }

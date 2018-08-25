@@ -8,7 +8,7 @@ final items = [
       },
       {
         "name": "Displaying SnackBars",
-        "route": "/usingThemes"
+        "route": "/displayingSnackbars"
       },
       {
         "name": "Working with Tabs",

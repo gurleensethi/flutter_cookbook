@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cookbook/design_basics/displaying_snackbars/displaying_snackbars.dart';
 import 'package:flutter_cookbook/design_basics/using_themes/using_themes.dart';
 import 'package:flutter_cookbook/home.dart';
 
@@ -12,6 +13,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Cookbook',
       theme: new ThemeData(
         primaryColor: Colors.white,
+        primaryTextTheme: TextTheme(
+          body1: TextStyle(
+            color: Colors.white,
+          ),
+        ),
       ),
       home: HomePage(),
       debugShowCheckedModeBanner: false,
@@ -19,6 +25,9 @@ class MyApp extends StatelessWidget {
         "/usingThemes": (context) {
           return UsingThemesPage();
         },
+        "/displayingSnackbars": (context) {
+          return DisplayingSnackbarsPage();
+        }
       },
     );
   }
