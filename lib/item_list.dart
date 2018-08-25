@@ -12,7 +12,7 @@ final items = [
       },
       {
         "name": "Working with Tabs",
-        "route": "/usingThemes"
+        "route": "/workingWithTabsPage"
       },
       {
         "name": "Using custom fonts",
@@ -37,6 +37,10 @@ final items = [
     "items": [
       {
         "name": "Display images from the internet",
+        "route": "/usingThemes"
+      },
+      {
+        "name": "Fade in images with a placeholder",
         "route": "/usingThemes"
       },
     ]

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_cookbook/design_basics/displaying_snackbars/displaying_snackbars.dart';
 import 'package:flutter_cookbook/design_basics/using_themes/using_themes.dart';
+import 'package:flutter_cookbook/design_basics/working_with_tabs/working_with_tabs_page.dart';
 import 'package:flutter_cookbook/home.dart';
 
 void main() => runApp(new MyApp());
@@ -27,6 +28,9 @@ class MyApp extends StatelessWidget {
         },
         "/displayingSnackbars": (context) {
           return DisplayingSnackbarsPage();
+        },
+        "/workingWithTabsPage": (context) {
+          return WorkingWithTabsPage();
         }
       },
     );

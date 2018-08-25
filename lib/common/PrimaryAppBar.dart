@@ -8,6 +8,7 @@ AppBar primaryAppBar({
   BuildContext context,
   List<CodeModel> codes,
   String link,
+  Widget bottom,
 }) {
   return AppBar(
     title: Text(
@@ -36,6 +37,7 @@ AppBar primaryAppBar({
         tooltip: "Link",
       ),
     ],
+    bottom: bottom,
   );
 }
 
