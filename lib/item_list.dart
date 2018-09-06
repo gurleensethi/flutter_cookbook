@@ -16,7 +16,7 @@ final items = [
       },
       {
         "name": "Using custom fonts",
-        "route": "/usingThemes"
+        "route": "/customFonts"
       },
       {
         "name": "Exporting fonts from a package",

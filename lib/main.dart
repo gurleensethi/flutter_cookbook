@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cookbook/design_basics/custom_fonts/custom_fonts_page.dart';
 import 'package:flutter_cookbook/design_basics/displaying_snackbars/displaying_snackbars.dart';
 import 'package:flutter_cookbook/design_basics/using_themes/using_themes.dart';
 import 'package:flutter_cookbook/design_basics/working_with_tabs/working_with_tabs_page.dart';
@@ -31,6 +32,9 @@ class MyApp extends StatelessWidget {
         },
         "/workingWithTabsPage": (context) {
           return WorkingWithTabsPage();
+        },
+        "/customFonts": (context) {
+          return CustomFontsPage();
         }
       },
     );

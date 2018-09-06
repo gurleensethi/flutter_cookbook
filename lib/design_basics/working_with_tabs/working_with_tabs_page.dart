@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_cookbook/code_page/code_model.dart';
-import 'package:flutter_cookbook/common/PrimaryAppBar.dart';
+import 'package:flutter_cookbook/common/primary_app_bar.dart';
 import 'package:flutter_cookbook/design_basics/working_with_tabs/working_with_tabs_code.dart'
     as Code;
 

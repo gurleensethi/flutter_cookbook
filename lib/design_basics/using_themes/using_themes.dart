@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_cookbook/code_page/code_model.dart';
 import 'package:flutter_cookbook/code_page/code_page.dart';
-import 'package:flutter_cookbook/common/PrimaryAppBar.dart';
+import 'package:flutter_cookbook/common/primary_app_bar.dart';
 import 'package:flutter_cookbook/design_basics/using_themes/using_themes_code.dart'
     as Code;
 import 'package:url_launcher/url_launcher.dart';
