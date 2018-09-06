@@ -38,6 +38,7 @@ class WorkingWithTabsPage extends StatelessWidget {
               code: Code.addingContent,
             ),
           ],
+          link: "https://flutter.io/cookbook/design/tabs/",
         ),
         body: TabBarView(
           children: [
