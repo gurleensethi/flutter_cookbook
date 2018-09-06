@@ -1,3 +1,12 @@
+final fontSetup = """
+<code class=" language-yaml"><span class="na">flutter</span><span class="pi">:</span>
+  <span class="na">fonts</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">family</span><span class="pi">:</span> <span class="s">Lobster</span>
+      <span class="na">fonts</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">asset</span><span class="pi">:</span> <span class="s">fonts/lobster.ttf</span>
+</code>
+""";
+
 final defaultFont = """
 <code class=" language-dart"><span class="token function"><span class="n">MaterialApp</span></span><span class="token punctuation"><span class="o">(</span></span>
   <span class="nl">title<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token string"><span class="s">'Custom Fonts'</span></span><span class="token punctuation"><span class="o">,</span></span>

@@ -13,6 +13,13 @@ class CustomFontsPage extends StatelessWidget {
         title: "Using Custom Fonts",
         codes: [
           CodeModel(
+            title: "Setting up",
+            description:
+                "Download a font file(.ttf) and place it in under fonts/ folder.\n"
+                "Then declare the placed font in pubspec.yaml",
+            code: Code.fontSetup,
+          ),
+          CodeModel(
             title: "Set as default font",
             description: "Change the font of complete application.",
             code: Code.defaultFont,

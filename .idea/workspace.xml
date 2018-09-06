@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="856eb30b-1bba-4366-88e6-6835ed257160" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/lobster.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_code.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/common/PrimaryAppBar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/primary_app_bar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/design_basics/displaying_snackbars/displaying_snackbars.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/design_basics/displaying_snackbars/displaying_snackbars.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/design_basics/using_themes/using_themes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/design_basics/using_themes/using_themes.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/design_basics/working_with_tabs/working_with_tabs_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/design_basics/working_with_tabs/working_with_tabs_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/item_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/item_list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_code.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_code.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_page.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,36 +17,36 @@
     <session id="18726567">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="dart" value="73" />
+          <entry key="dart" value="75" />
           <entry key="yaml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dart" value="73" />
+          <entry key="Dart" value="75" />
           <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dart" value="5185" />
+          <entry key="dart" value="5415" />
           <entry key="yaml" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dart" value="5183" />
+          <entry key="Dart" value="5413" />
           <entry key="HTML" value="2" />
           <entry key="YAML" value="79" />
         </counts>
@@ -66,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
+            <state relative-caret-position="527">
               <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -78,11 +70,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+            <state relative-caret-position="205">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_code.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/item_list.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -101,6 +111,7 @@
       <find>tooltip</find>
       <find>color</find>
       <find>child</find>
+      <find>robotoMono</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,9 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,47 +174,17 @@
               <item name="flutter_cookbook" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="flutter_cookbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_cookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_cookbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_cookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="design_basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_cookbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_cookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="design_basics" type="462c0819:PsiDirectoryNode" />
-              <item name="custom_fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_cookbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_cookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="design_basics" type="462c0819:PsiDirectoryNode" />
-              <item name="using_themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_cookbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_cookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="design_basics" type="462c0819:PsiDirectoryNode" />
-              <item name="working_with_tabs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536212366451" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536212423399" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -252,6 +230,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="22" width="1267" height="955" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Build Variants" order="1" side_tool="true" />
@@ -267,10 +246,10 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Logcat" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.37782806" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.37782806" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.3280543" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.3280543" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -412,16 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/design_basics/using_themes/using_themes_code.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -436,24 +405,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/item_list.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="314">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_code.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+        <state relative-caret-position="205">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
