@@ -20,7 +20,7 @@ final items = [
       },
       {
         "name": "Exporting fonts from a package",
-        "route": "/usingThemes"
+        "route": "/exportingFontsPackages"
       },
       {
         "name": "Add a Drawer to a screen",
