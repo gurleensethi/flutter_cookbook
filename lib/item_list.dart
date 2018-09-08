@@ -24,7 +24,7 @@ final items = [
       },
       {
         "name": "Add a Drawer to a screen",
-        "route": "/usingThemes"
+        "route": "/addingDrawer"
       },
       {
         "name": "Updating the UI based on orientation",

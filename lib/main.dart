@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cookbook/design_basics/adding_drawer/adding_drawer_page.dart';
 import 'package:flutter_cookbook/design_basics/custom_fonts/custom_fonts_page.dart';
 import 'package:flutter_cookbook/design_basics/displaying_snackbars/displaying_snackbars.dart';
 import 'package:flutter_cookbook/design_basics/exporting_fonts_package/exporting_fonts_package_page.dart';
@@ -39,6 +40,9 @@ class MyApp extends StatelessWidget {
         },
         "/exportingFontsPackages": (context) {
           return ExportingFontsPackagePage();
+        },
+        "/addingDrawer": (context) {
+          return AddingDrawerPage();
         }
       },
     );

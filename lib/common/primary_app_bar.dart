@@ -9,6 +9,7 @@ AppBar primaryAppBar({
   List<CodeModel> codes,
   String link,
   Widget bottom,
+  Widget leading,
 }) {
   return AppBar(
     title: Text(
@@ -38,6 +39,7 @@ AppBar primaryAppBar({
       ),
     ],
     bottom: bottom,
+    leading: leading,
   );
 }
 
