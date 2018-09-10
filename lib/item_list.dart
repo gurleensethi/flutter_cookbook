@@ -28,7 +28,7 @@ final items = [
       },
       {
         "name": "Updating the UI based on orientation",
-        "route": "/usingThemes"
+        "route": "/uiOrientation"
       },
     ]
   },

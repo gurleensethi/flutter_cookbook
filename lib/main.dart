@@ -3,6 +3,7 @@ import 'package:flutter_cookbook/design_basics/adding_drawer/adding_drawer_page.
 import 'package:flutter_cookbook/design_basics/custom_fonts/custom_fonts_page.dart';
 import 'package:flutter_cookbook/design_basics/displaying_snackbars/displaying_snackbars.dart';
 import 'package:flutter_cookbook/design_basics/exporting_fonts_package/exporting_fonts_package_page.dart';
+import 'package:flutter_cookbook/design_basics/ui_orientation/ui_orientation_page.dart';
 import 'package:flutter_cookbook/design_basics/using_themes/using_themes.dart';
 import 'package:flutter_cookbook/design_basics/working_with_tabs/working_with_tabs_page.dart';
 import 'package:flutter_cookbook/home.dart';
@@ -43,6 +44,9 @@ class MyApp extends StatelessWidget {
         },
         "/addingDrawer": (context) {
           return AddingDrawerPage();
+        },
+        "/uiOrientation": (context) {
+          return UIOrientationPage();
         }
       },
     );
