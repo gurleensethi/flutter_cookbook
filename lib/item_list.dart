@@ -37,10 +37,14 @@ final items = [
     "items": [
       {
         "name": "Display images from the internet",
-        "route": "/usingThemes"
+        "route": "/imagesFromInternet"
       },
       {
         "name": "Fade in images with a placeholder",
+        "route": "/usingThemes"
+      },
+      {
+        "name": "Working with cached images.",
         "route": "/usingThemes"
       },
     ]
