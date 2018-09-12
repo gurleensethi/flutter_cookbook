@@ -41,7 +41,7 @@ final items = [
       },
       {
         "name": "Fade in images with a placeholder",
-        "route": "/usingThemes"
+        "route": "/fadeInImages"
       },
       {
         "name": "Working with cached images.",

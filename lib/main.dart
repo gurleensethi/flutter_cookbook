@@ -7,6 +7,7 @@ import 'package:flutter_cookbook/design_basics/ui_orientation/ui_orientation_pag
 import 'package:flutter_cookbook/design_basics/using_themes/using_themes.dart';
 import 'package:flutter_cookbook/design_basics/working_with_tabs/working_with_tabs_page.dart';
 import 'package:flutter_cookbook/home.dart';
+import 'package:flutter_cookbook/images/fade_in_images/fade_in_images_page.dart';
 import 'package:flutter_cookbook/images/images_from_internet/image_from_internet_page.dart';
 
 void main() => runApp(new MyApp());
@@ -51,6 +52,9 @@ class MyApp extends StatelessWidget {
         },
         "/imagesFromInternet": (context) {
           return ImagesFromInternetPage();
+        },
+        "/fadeInImages": (context) {
+          return FadeInImagesPage();
         }
       },
     );
