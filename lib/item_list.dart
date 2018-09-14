@@ -45,7 +45,7 @@ final items = [
       },
       {
         "name": "Working with cached images.",
-        "route": "/usingThemes"
+        "route": "/cachedImages"
       },
     ]
   },

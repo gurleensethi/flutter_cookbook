@@ -33,7 +33,7 @@
         <entry key="cached_network_image">
           <value>
             <list>
-              <option value="$USER_HOME$/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/cached_network_image-0.4.1+1/lib" />
+              <option value="$USER_HOME$/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/cached_network_image-0.4.2/lib" />
             </list>
           </value>
         </entry>
@@ -450,7 +450,7 @@
       <root url="file://$USER_HOME$/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/args-1.5.0/lib" />
       <root url="file://$USER_HOME$/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.0.8/lib" />
       <root url="file://$USER_HOME$/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-1.0.4/lib" />
-      <root url="file://$USER_HOME$/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/cached_network_image-0.4.1+1/lib" />
+      <root url="file://$USER_HOME$/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/cached_network_image-0.4.2/lib" />
       <root url="file://$USER_HOME$/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.2/lib" />
       <root url="file://$USER_HOME$/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib" />
       <root url="file://$USER_HOME$/Documents/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.0.2/lib" />
