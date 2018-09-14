@@ -44,7 +44,32 @@ final items = [
         "route": "/fadeInImages"
       },
       {
-        "name": "Working with cached images.",
+        "name": "Working with cached images",
+        "route": "/cachedImages"
+      },
+    ]
+  },
+  {
+    "name": "Lists",
+    "items": [
+      {
+        "name": "Create a basic list",
+        "route": "/imagesFromInternet"
+      },
+      {
+        "name": "Make a horizontal list",
+        "route": "/fadeInImages"
+      },
+      {
+        "name": "Working with long lists",
+        "route": "/cachedImages"
+      },
+      {
+        "name": "Creating lists with different types of items",
+        "route": "/cachedImages"
+      },
+      {
+        "name": "Creating a grid List",
         "route": "/cachedImages"
       },
     ]
