@@ -10,6 +10,7 @@ import 'package:flutter_cookbook/home.dart';
 import 'package:flutter_cookbook/images/cached_images/cached_images_page.dart';
 import 'package:flutter_cookbook/images/fade_in_images/fade_in_images_page.dart';
 import 'package:flutter_cookbook/images/images_from_internet/image_from_internet_page.dart';
+import 'package:flutter_cookbook/lists/basic_list/basic_list_page.dart';
 
 void main() => runApp(new MyApp());
 
@@ -59,6 +60,9 @@ class MyApp extends StatelessWidget {
         },
         "/cachedImages": (context) {
           return CachedImagesPage();
+        },
+        "/basicList": (context) {
+          return BasicListPage();
         }
       },
     );

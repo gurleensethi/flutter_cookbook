@@ -4,31 +4,31 @@ final items = [
     "items": [
       {
         "name": "Using Themes to share colors and font styles",
-        "route": "/usingThemes"
+        "route": "/usingThemes",
       },
       {
         "name": "Displaying SnackBars",
-        "route": "/displayingSnackbars"
+        "route": "/displayingSnackbars",
       },
       {
         "name": "Working with Tabs",
-        "route": "/workingWithTabsPage"
+        "route": "/workingWithTabsPage",
       },
       {
         "name": "Using custom fonts",
-        "route": "/customFonts"
+        "route": "/customFonts",
       },
       {
         "name": "Exporting fonts from a package",
-        "route": "/exportingFontsPackages"
+        "route": "/exportingFontsPackages",
       },
       {
         "name": "Add a Drawer to a screen",
-        "route": "/addingDrawer"
+        "route": "/addingDrawer",
       },
       {
         "name": "Updating the UI based on orientation",
-        "route": "/uiOrientation"
+        "route": "/uiOrientation",
       },
     ]
   },
@@ -37,15 +37,15 @@ final items = [
     "items": [
       {
         "name": "Display images from the internet",
-        "route": "/imagesFromInternet"
+        "route": "/imagesFromInternet",
       },
       {
         "name": "Fade in images with a placeholder",
-        "route": "/fadeInImages"
+        "route": "/fadeInImages",
       },
       {
         "name": "Working with cached images",
-        "route": "/cachedImages"
+        "route": "/cachedImages",
       },
     ]
   },
@@ -54,23 +54,23 @@ final items = [
     "items": [
       {
         "name": "Create a basic list",
-        "route": "/imagesFromInternet"
+        "route": "/basicList",
       },
       {
         "name": "Make a horizontal list",
-        "route": "/fadeInImages"
+        "route": "/fadeInImages",
       },
       {
         "name": "Working with long lists",
-        "route": "/cachedImages"
+        "route": "/cachedImages",
       },
       {
         "name": "Creating lists with different types of items",
-        "route": "/cachedImages"
+        "route": "/cachedImages",
       },
       {
         "name": "Creating a grid List",
-        "route": "/cachedImages"
+        "route": "/cachedImages",
       },
     ]
   },
