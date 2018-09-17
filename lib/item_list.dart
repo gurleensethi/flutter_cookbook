@@ -58,7 +58,7 @@ final items = [
       },
       {
         "name": "Make a horizontal list",
-        "route": "/fadeInImages",
+        "route": "/horizontalList",
       },
       {
         "name": "Working with long lists",
