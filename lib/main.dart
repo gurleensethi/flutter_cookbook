@@ -12,6 +12,7 @@ import 'package:flutter_cookbook/images/fade_in_images/fade_in_images_page.dart'
 import 'package:flutter_cookbook/images/images_from_internet/image_from_internet_page.dart';
 import 'package:flutter_cookbook/lists/basic_list/basic_list_page.dart';
 import 'package:flutter_cookbook/lists/horizontal_list/horizontal_list_page.dart';
+import 'package:flutter_cookbook/lists/long_lists/long_lists_page.dart';
 
 void main() => runApp(new MyApp());
 
@@ -67,7 +68,10 @@ class MyApp extends StatelessWidget {
         },
         "/horizontalList": (context) {
           return HorizontalListPage();
-        }
+        },
+        "/longLists": (context) {
+          return LongListsPage();
+        },
       },
     );
   }

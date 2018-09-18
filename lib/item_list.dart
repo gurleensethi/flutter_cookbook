@@ -62,7 +62,7 @@ final items = [
       },
       {
         "name": "Working with long lists",
-        "route": "/cachedImages",
+        "route": "/longLists",
       },
       {
         "name": "Creating lists with different types of items",
