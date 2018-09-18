@@ -46,8 +46,8 @@ class CodeListItem extends StatelessWidget {
               borderRadius: BorderRadius.circular(4.0),
               color: Colors.grey[300],
             ),
-            child: HtmlView(
-              data: code.code,
+            child: Text(
+              code.code,
             ),
           ),
         ],
