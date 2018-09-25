@@ -66,7 +66,7 @@ final items = [
       },
       {
         "name": "Creating lists with different types of items",
-        "route": "/cachedImages",
+        "route": "/listDifferentItems",
       },
       {
         "name": "Creating a grid List",
