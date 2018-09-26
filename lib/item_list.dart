@@ -70,7 +70,7 @@ final items = [
       },
       {
         "name": "Creating a grid List",
-        "route": "/cachedImages",
+        "route": "/gridList",
       },
     ]
   },

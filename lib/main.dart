@@ -11,6 +11,7 @@ import 'package:flutter_cookbook/images/cached_images/cached_images_page.dart';
 import 'package:flutter_cookbook/images/fade_in_images/fade_in_images_page.dart';
 import 'package:flutter_cookbook/images/images_from_internet/image_from_internet_page.dart';
 import 'package:flutter_cookbook/lists/basic_list/basic_list_page.dart';
+import 'package:flutter_cookbook/lists/grid_list/grid_list_page.dart';
 import 'package:flutter_cookbook/lists/horizontal_list/horizontal_list_page.dart';
 import 'package:flutter_cookbook/lists/list_different_items/list_different_items_page.dart';
 import 'package:flutter_cookbook/lists/long_lists/long_lists_page.dart';
@@ -75,6 +76,9 @@ class MyApp extends StatelessWidget {
         },
         "/listDifferentItems": (context) {
           return ListDifferentItemsPage();
+        },
+        "/gridList": (context) {
+          return GridListPage();
         }
       },
     );
