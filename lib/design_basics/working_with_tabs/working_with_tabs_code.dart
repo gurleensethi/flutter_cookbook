@@ -1,26 +1,13 @@
-const creatingTabs =
-    """<code class=" language-dart"><span class="token function"><span class="n">DefaultTabController</span></span><span class="token punctuation"><span class="o">(</span></span>
-  <span class="nl">length<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token number"><span class="mi">3</span></span><span class="token punctuation"><span class="o">,</span></span>
-  <span class="nl">child<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token function"><span class="n">Scaffold</span></span><span class="token punctuation"><span class="o">(</span></span>
-    <span class="nl">appBar<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token function"><span class="n">AppBar</span></span><span class="token punctuation"><span class="o">(</span></span>
-      <span class="nl">bottom<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token function"><span class="n">TabBar</span></span><span class="token punctuation"><span class="o">(</span></span>
-        <span class="nl">tabs<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token punctuation"><span class="o">[</span></span>
-          <span class="token function"><span class="n">Tab</span></span><span class="token punctuation"><span class="o">(</span></span><span class="nl">icon<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token function"><span class="n">Icon</span></span><span class="token punctuation"><span class="o">(</span></span><span class="n">Icons</span><span class="token punctuation"><span class="o">.</span></span><span class="na">directions_car</span><span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-          <span class="token function"><span class="n">Tab</span></span><span class="token punctuation"><span class="o">(</span></span><span class="nl">icon<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token function"><span class="n">Icon</span></span><span class="token punctuation"><span class="o">(</span></span><span class="n">Icons</span><span class="token punctuation"><span class="o">.</span></span><span class="na">directions_transit</span><span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-          <span class="token function"><span class="n">Tab</span></span><span class="token punctuation"><span class="o">(</span></span><span class="nl">icon<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token function"><span class="n">Icon</span></span><span class="token punctuation"><span class="o">(</span></span><span class="n">Icons</span><span class="token punctuation"><span class="o">.</span></span><span class="na">directions_bike</span><span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-        <span class="token punctuation"></span><span class="o"><span class="token punctuation">]</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-      <span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-    <span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-  <span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-<span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">;</span></span><span class="token punctuation"></span>
-</code>""";
+const creatingTabs = """DefaultTabController(
+  // The number of tabs / content sections we need to display
+  length: 3,
+  child: // See the next step! 
+);""";
 
-const addingContent =
-    """<code class=" language-dart"><span class="token function"><span class="n">TabBarView</span></span><span class="token punctuation"><span class="o">(</span></span>
-  <span class="nl">children<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token punctuation"><span class="o">[</span></span>
-    <span class="token function"><span class="n">Icon</span></span><span class="token punctuation"><span class="o">(</span></span><span class="n">Icons</span><span class="token punctuation"><span class="o">.</span></span><span class="na">directions_car</span><span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-    <span class="token function"><span class="n">Icon</span></span><span class="token punctuation"><span class="o">(</span></span><span class="n">Icons</span><span class="token punctuation"><span class="o">.</span></span><span class="na">directions_transit</span><span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-    <span class="token function"><span class="n">Icon</span></span><span class="token punctuation"><span class="o">(</span></span><span class="n">Icons</span><span class="token punctuation"><span class="o">.</span></span><span class="na">directions_bike</span><span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-  <span class="token punctuation"></span><span class="o"><span class="token punctuation">]</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-<span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">;</span></span><span class="token punctuation"></span>
-</code>""";
+const addingContent = """TabBarView(
+  children: [
+    Icon(Icons.directions_car),
+    Icon(Icons.directions_transit),
+    Icon(Icons.directions_bike),
+  ],
+);""";

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="856eb30b-1bba-4366-88e6-6835ed257160" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/handling_gestures/handling_taps/handling_taps_code.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/handling_gestures/handling_taps/handling_taps_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/item_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/item_list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_code.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_code.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/design_basics/working_with_tabs/working_with_tabs_code.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/design_basics/working_with_tabs/working_with_tabs_code.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,13 +32,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Podfile" value="1" />
-          <entry key="dart" value="165" />
+          <entry key="dart" value="168" />
           <entry key="yaml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dart" value="165" />
+          <entry key="Dart" value="168" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="7" />
         </counts>
@@ -66,22 +63,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/handling_gestures/handling_taps/handling_taps_page.dart">
+        <entry file="file://$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_code.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/handling_gestures/handling_taps/handling_taps_code.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -125,12 +110,10 @@
         <option value="$PROJECT_DIR$/lib/design_basics/displaying_snackbars/displaying_snackbars.dart" />
         <option value="$PROJECT_DIR$/lib/code_page/code_page.dart" />
         <option value="$PROJECT_DIR$/lib/common/PrimaryAppBar.dart" />
-        <option value="$PROJECT_DIR$/lib/design_basics/working_with_tabs/working_with_tabs_code.dart" />
         <option value="$PROJECT_DIR$/lib/design_basics/working_with_tabs/working_with_tabs_page.dart" />
         <option value="$PROJECT_DIR$/lib/design_basics/working_with_tabs/custom_fonts_code.dart" />
         <option value="$PROJECT_DIR$/lib/design_basics/custom_fonts_page.dart" />
         <option value="$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_page.dart" />
-        <option value="$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_code.dart" />
         <option value="$PROJECT_DIR$/lib/design_basics/exporting_fonts_package/exporting_fonts_packages_code.dart" />
         <option value="$PROJECT_DIR$/lib/design_basics/exporting_fonts_package/exporting_fonts_package_page.dart" />
         <option value="$PROJECT_DIR$/lib/common/primary_app_bar.dart" />
@@ -166,6 +149,8 @@
         <option value="$PROJECT_DIR$/lib/item_list.dart" />
         <option value="$PROJECT_DIR$/lib/handling_gestures/handling_taps/handling_taps_code.dart" />
         <option value="$PROJECT_DIR$/lib/handling_gestures/handling_taps/handling_taps_page.dart" />
+        <option value="$PROJECT_DIR$/lib/design_basics/working_with_tabs/working_with_tabs_code.dart" />
+        <option value="$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_code.dart" />
       </list>
     </option>
   </component>
@@ -204,14 +189,14 @@
               <item name="flutter_cookbook" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_cookbook" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="handling_gestures" type="462c0819:PsiDirectoryNode" />
+              <item name="design_basics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flutter_cookbook" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_cookbook" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="handling_gestures" type="462c0819:PsiDirectoryNode" />
-              <item name="handling_taps" type="462c0819:PsiDirectoryNode" />
+              <item name="design_basics" type="462c0819:PsiDirectoryNode" />
+              <item name="custom_fonts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,7 +206,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538023160677" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538023619766" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -285,10 +270,10 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Logcat" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.37868482" />
+      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.37868482" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3276644" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3276644" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39932126" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -339,13 +324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/design_basics/working_with_tabs/working_with_tabs_code.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/design_basics/using_themes/using_themes.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -357,13 +335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_code.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -625,6 +596,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handling_gestures/handling_taps/handling_taps_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/handling_gestures/handling_taps/handling_taps_code.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -632,13 +613,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/handling_gestures/handling_taps/handling_taps_page.dart">
+    <entry file="file://$PROJECT_DIR$/lib/design_basics/working_with_tabs/working_with_tabs_code.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/design_basics/custom_fonts/custom_fonts_code.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
         </state>
       </provider>
     </entry>
