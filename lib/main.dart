@@ -6,6 +6,7 @@ import 'package:flutter_cookbook/design_basics/exporting_fonts_package/exporting
 import 'package:flutter_cookbook/design_basics/ui_orientation/ui_orientation_page.dart';
 import 'package:flutter_cookbook/design_basics/using_themes/using_themes.dart';
 import 'package:flutter_cookbook/design_basics/working_with_tabs/working_with_tabs_page.dart';
+import 'package:flutter_cookbook/handling_gestures/handling_taps/handling_taps_page.dart';
 import 'package:flutter_cookbook/home.dart';
 import 'package:flutter_cookbook/images/cached_images/cached_images_page.dart';
 import 'package:flutter_cookbook/images/fade_in_images/fade_in_images_page.dart';
@@ -79,6 +80,9 @@ class MyApp extends StatelessWidget {
         },
         "/gridList": (context) {
           return GridListPage();
+        },
+        "/handlingTaps": (context) {
+          return HandlingTapsPage();
         }
       },
     );

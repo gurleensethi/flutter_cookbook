@@ -74,4 +74,21 @@ final items = [
       },
     ]
   },
+  {
+    "name": "Handling Gestures",
+    "items": [
+      {
+        "name": "Handling Taps",
+        "route": "/handlingTaps",
+      },
+      {
+        "name": "Adding Material Touch ripples",
+        "route": "/horizontalList",
+      },
+      {
+        "name": "Implement Swipe to Dismiss",
+        "route": "/longLists",
+      },
+    ]
+  },
 ];
