@@ -83,7 +83,7 @@ final items = [
       },
       {
         "name": "Adding Material Touch ripples",
-        "route": "/horizontalList",
+        "route": "/materialTouchRipples",
       },
       {
         "name": "Implement Swipe to Dismiss",
