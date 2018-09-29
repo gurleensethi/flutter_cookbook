@@ -8,6 +8,7 @@ import 'package:flutter_cookbook/design_basics/using_themes/using_themes.dart';
 import 'package:flutter_cookbook/design_basics/working_with_tabs/working_with_tabs_page.dart';
 import 'package:flutter_cookbook/handling_gestures/handling_taps/handling_taps_page.dart';
 import 'package:flutter_cookbook/handling_gestures/material_touch_ripples/material_touch_ripples_page.dart';
+import 'package:flutter_cookbook/handling_gestures/swipe_to_dismiss/swipe_to_dismiss_page.dart';
 import 'package:flutter_cookbook/home.dart';
 import 'package:flutter_cookbook/images/cached_images/cached_images_page.dart';
 import 'package:flutter_cookbook/images/fade_in_images/fade_in_images_page.dart';
@@ -87,6 +88,9 @@ class MyApp extends StatelessWidget {
         },
         "/materialTouchRipples": (context) {
           return MaterialTouchRipplesPage();
+        },
+        "/swipeToDismiss": (context) {
+          return SwipeToDismiss();
         }
       },
     );

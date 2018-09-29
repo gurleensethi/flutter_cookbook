@@ -87,7 +87,7 @@ final items = [
       },
       {
         "name": "Implement Swipe to Dismiss",
-        "route": "/longLists",
+        "route": "/swipeToDismiss",
       },
     ]
   },
