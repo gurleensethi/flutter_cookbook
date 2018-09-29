@@ -1,19 +1,16 @@
-final listCode = """
-<code class=" language-dart"><span class="token function"><span class="n">ListView</span></span><span class="token punctuation"><span class="o">(</span></span>
-  <span class="nl">children<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token operator"></span><span class="n">Widget</span><span class="token operator"></span><span class="o"><span class="token punctuation">[</span></span><span class="token punctuation"></span>
-    <span class="token function"><span class="n">ListTile</span></span><span class="token punctuation"><span class="o">(</span></span>
-      <span class="nl">leading<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token function"><span class="n">Icon</span></span><span class="token punctuation"><span class="o">(</span></span><span class="n">Icons</span><span class="token punctuation"><span class="o">.</span></span><span class="na">map</span><span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-      <span class="nl">title<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token function"><span class="n">Text</span></span><span class="token punctuation"><span class="o">(</span></span><span class="token string"><span class="s">'Map'</span></span><span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-    <span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-    <span class="token function"><span class="n">ListTile</span></span><span class="token punctuation"><span class="o">(</span></span>
-      <span class="nl">leading<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token function"><span class="n">Icon</span></span><span class="token punctuation"><span class="o">(</span></span><span class="n">Icons</span><span class="token punctuation"><span class="o">.</span></span><span class="na">photo_album</span><span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-      <span class="nl">title<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token function"><span class="n">Text</span></span><span class="token punctuation"><span class="o">(</span></span><span class="token string"><span class="s">'Album'</span></span><span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-    <span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-    <span class="token function"><span class="n">ListTile</span></span><span class="token punctuation"><span class="o">(</span></span>
-      <span class="nl">leading<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token function"><span class="n">Icon</span></span><span class="token punctuation"><span class="o">(</span></span><span class="n">Icons</span><span class="token punctuation"><span class="o">.</span></span><span class="na">phone</span><span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-      <span class="nl">title<span class="token punctuation">:</span></span><span class="token punctuation"></span> <span class="token function"><span class="n">Text</span></span><span class="token punctuation"><span class="o">(</span></span><span class="token string"><span class="s">'Phone'</span></span><span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-    <span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-  <span class="token punctuation"></span><span class="o"><span class="token punctuation">]</span><span class="token punctuation">,</span></span><span class="token punctuation"></span>
-<span class="token punctuation"></span><span class="o"><span class="token punctuation">)</span><span class="token punctuation">;</span></span><span class="token punctuation"></span>
-</code>
-""";
+final listCode = """ListView(
+  children: <Widget>[
+    ListTile(
+      leading: Icon(Icons.map),
+      title: Text('Map'),
+    ),
+    ListTile(
+      leading: Icon(Icons.photo_album),
+      title: Text('Album'),
+    ),
+    ListTile(
+      leading: Icon(Icons.phone),
+      title: Text('Phone'),
+    ),
+  ],
+);""";

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="856eb30b-1bba-4366-88e6-6835ed257160" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/images/cached_images/cached_images_code.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/images/cached_images/cached_images_code.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/images/fade_in_images/fade_in_images_code.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/images/fade_in_images/fade_in_images_code.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/images/images_from_internet/images_from_internet_code.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/images/images_from_internet/images_from_internet_code.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lists/basic_list/basic_list_code.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lists/basic_list/basic_list_code.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,13 +32,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Podfile" value="1" />
-          <entry key="dart" value="182" />
+          <entry key="dart" value="183" />
           <entry key="yaml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dart" value="182" />
+          <entry key="Dart" value="183" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="7" />
         </counts>
@@ -73,11 +71,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/images/fade_in_images/fade_in_images_code.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/lists/basic_list/basic_list_code.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -133,7 +140,6 @@
         <option value="$PROJECT_DIR$/lib/images/cached_images/cached_images_page.dart" />
         <option value="$PROJECT_DIR$/lib/lists/basic_list_code.dart" />
         <option value="$PROJECT_DIR$/lib/lists/basic_list_page.dart" />
-        <option value="$PROJECT_DIR$/lib/lists/basic_list/basic_list_code.dart" />
         <option value="$PROJECT_DIR$/lib/lists/basic_list/basic_list_page.dart" />
         <option value="$PROJECT_DIR$/lib/lists/horizontal_list/horizontal_list_page.dart" />
         <option value="$PROJECT_DIR$/lib/lists/horizontal_list/horizontal_list_code.dart" />
@@ -162,6 +168,7 @@
         <option value="$PROJECT_DIR$/lib/images/cached_images/cached_images_code.dart" />
         <option value="$PROJECT_DIR$/lib/images/images_from_internet/images_from_internet_code.dart" />
         <option value="$PROJECT_DIR$/lib/images/fade_in_images/fade_in_images_code.dart" />
+        <option value="$PROJECT_DIR$/lib/lists/basic_list/basic_list_code.dart" />
       </list>
     </option>
   </component>
@@ -201,14 +208,14 @@
               <item name="flutter_cookbook" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_cookbook" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="lists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flutter_cookbook" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_cookbook" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="fade_in_images" type="462c0819:PsiDirectoryNode" />
+              <item name="lists" type="462c0819:PsiDirectoryNode" />
+              <item name="basic_list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,7 +224,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538197081111" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538197224265" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -281,10 +288,10 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Logcat" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.37868482" />
+      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.37868482" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3276644" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3276644" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39932126" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -415,13 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lists/basic_list/basic_list_code.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="134" lean-forward="true" selection-start-line="11" selection-start-column="134" selection-end-line="11" selection-end-column="134" />
         </state>
       </provider>
     </entry>
@@ -660,8 +660,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/images/fade_in_images/fade_in_images_code.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lists/basic_list/basic_list_code.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
