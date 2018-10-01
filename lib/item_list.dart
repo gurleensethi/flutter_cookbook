@@ -91,4 +91,29 @@ final items = [
       },
     ]
   },
+  {
+    "name": "Navigation",
+    "items": [
+      {
+        "name": "Navigate to a new screen and back",
+        "route": "/navigateToNewScreen",
+      },
+      {
+        "name": "Send data to a new screen",
+        "route": "/materialTouchRipples",
+      },
+      {
+        "name": "Return data from a screen",
+        "route": "/swipeToDismiss",
+      },
+      {
+        "name": "Navigate with named routes",
+        "route": "/materialTouchRipples",
+      },
+      {
+        "name": "Animating a Widget across screens",
+        "route": "/swipeToDismiss",
+      },
+    ]
+  },
 ];

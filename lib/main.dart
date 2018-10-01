@@ -18,6 +18,7 @@ import 'package:flutter_cookbook/lists/grid_list/grid_list_page.dart';
 import 'package:flutter_cookbook/lists/horizontal_list/horizontal_list_page.dart';
 import 'package:flutter_cookbook/lists/list_different_items/list_different_items_page.dart';
 import 'package:flutter_cookbook/lists/long_lists/long_lists_page.dart';
+import 'package:flutter_cookbook/navigation/navigate_to_new_screen/navigate_to_new_screen_page.dart';
 
 void main() => runApp(new MyApp());
 
@@ -91,6 +92,9 @@ class MyApp extends StatelessWidget {
         },
         "/swipeToDismiss": (context) {
           return SwipeToDismiss();
+        },
+        "/navigateToNewScreen": (context) {
+          return NavigateToNewScreenPage();
         }
       },
     );
