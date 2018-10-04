@@ -100,7 +100,7 @@ final items = [
       },
       {
         "name": "Send data to a new screen",
-        "route": "/materialTouchRipples",
+        "route": "/sendDataToNewScreen",
       },
       {
         "name": "Return data from a screen",
