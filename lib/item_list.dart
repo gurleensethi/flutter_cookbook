@@ -104,7 +104,7 @@ final items = [
       },
       {
         "name": "Return data from a screen",
-        "route": "/swipeToDismiss",
+        "route": "/returnDataFromScreen",
       },
       {
         "name": "Navigate with named routes",
