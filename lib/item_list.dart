@@ -108,7 +108,7 @@ final items = [
       },
       {
         "name": "Navigate with named routes",
-        "route": "/materialTouchRipples",
+        "route": "/navigateWithNamedRoutes",
       },
       {
         "name": "Animating a Widget across screens",
