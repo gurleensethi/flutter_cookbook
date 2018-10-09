@@ -18,6 +18,7 @@ import 'package:flutter_cookbook/lists/grid_list/grid_list_page.dart';
 import 'package:flutter_cookbook/lists/horizontal_list/horizontal_list_page.dart';
 import 'package:flutter_cookbook/lists/list_different_items/list_different_items_page.dart';
 import 'package:flutter_cookbook/lists/long_lists/long_lists_page.dart';
+import 'package:flutter_cookbook/navigation/animating_widget_across_screens/animating_widget_across_screen_page.dart';
 import 'package:flutter_cookbook/navigation/navigate_to_new_screen/navigate_to_new_screen_page.dart';
 import 'package:flutter_cookbook/navigation/navigate_with_named_routes/navigate_with_named_routes_page.dart';
 import 'package:flutter_cookbook/navigation/return_data_from_screen/return_data_from_screen_page.dart';
@@ -108,6 +109,9 @@ class MyApp extends StatelessWidget {
         "/navigateWithNamedRoutes": (context) {
           return NavigateWithNamedRoutesPage();
         },
+        "/animatingAcrossScreens": (context) {
+          return AnimatingWidgetAcrossScreenPage();
+        }
       },
     );
   }

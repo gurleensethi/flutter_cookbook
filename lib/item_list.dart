@@ -112,7 +112,7 @@ final items = [
       },
       {
         "name": "Animating a Widget across screens",
-        "route": "/swipeToDismiss",
+        "route": "/animatingAcrossScreens",
       },
     ]
   },
