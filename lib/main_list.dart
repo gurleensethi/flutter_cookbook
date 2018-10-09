@@ -18,11 +18,14 @@ class MainList extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              Text(
-                item["name"],
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 24.0,
+              Container(
+                margin: EdgeInsets.only(bottom: 16.0),
+                child: Text(
+                  item["name"],
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 24.0,
+                  ),
                 ),
               ),
               _getSubItemList(item["items"]),

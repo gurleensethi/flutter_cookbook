@@ -116,4 +116,72 @@ final items = [
       },
     ]
   },
+  {
+    "name": "Animation",
+    "items": [
+      {
+        "name": "Fade a Widget in and out",
+        "route": "/navigateToNewScreen",
+      },
+    ],
+  },
+  {
+    "name": "Networking",
+    "items": [
+      {
+        "name": "Fetch data from the internet",
+        "route": "/navigateToNewScreen",
+      },
+      {
+        "name": "Making authenticated requests",
+        "route": "/sendDataToNewScreen",
+      },
+      {
+        "name": "Working with WebSockets",
+        "route": "/returnDataFromScreen",
+      },
+      {
+        "name": "Parsing JSON in the background",
+        "route": "/navigateWithNamedRoutes",
+      },
+    ]
+  },
+  {
+    "name": "Persistence",
+    "items": [
+      {
+        "name": "Storing key-value data on disk",
+        "route": "/navigateToNewScreen",
+      },
+      {
+        "name": "Reading and Writing Files",
+        "route": "/sendDataToNewScreen",
+      },
+    ]
+  },
+  {
+    "name": "Forms",
+    "items": [
+      {
+        "name": "Create and style a text field",
+        "route": "/navigateToNewScreen",
+      },
+      {
+        "name": "Retrieve the value of a text field",
+        "route": "/sendDataToNewScreen",
+      },
+      {
+        "name": "Handling changes to a text field",
+        "route": "/returnDataFromScreen",
+      },
+      {
+        "name": "Focus a text field",
+        "route": "/navigateWithNamedRoutes",
+      },
+      {
+        "name": "Building a form with validation",
+        "route": "/navigateWithNamedRoutes",
+      },
+    ]
+  },
 ];
