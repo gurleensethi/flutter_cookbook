@@ -121,7 +121,7 @@ final items = [
     "items": [
       {
         "name": "Fade a Widget in and out",
-        "route": "/navigateToNewScreen",
+        "route": "/fadeAWidget",
       },
     ],
   },

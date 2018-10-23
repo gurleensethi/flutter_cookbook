@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cookbook/animation/fade_a_widget/fade_a_widget_page.dart';
 import 'package:flutter_cookbook/design_basics/adding_drawer/adding_drawer_page.dart';
 import 'package:flutter_cookbook/design_basics/custom_fonts/custom_fonts_page.dart';
 import 'package:flutter_cookbook/design_basics/displaying_snackbars/displaying_snackbars.dart';
@@ -111,6 +112,9 @@ class MyApp extends StatelessWidget {
         },
         "/animatingAcrossScreens": (context) {
           return AnimatingWidgetAcrossScreenPage();
+        },
+        "/fadeAWidget": (context) {
+          return FadeAWidgetPage();
         }
       },
     );
