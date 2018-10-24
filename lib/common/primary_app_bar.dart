@@ -43,7 +43,7 @@ AppBar primaryAppBar({
   );
 }
 
-void _launchUrl(String url) async {
+_launchUrl(String url) async {
   if (await canLaunch(url)) {
     await launch(url);
   }

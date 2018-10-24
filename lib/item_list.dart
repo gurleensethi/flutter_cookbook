@@ -130,7 +130,7 @@ final items = [
     "items": [
       {
         "name": "Fetch data from the internet",
-        "route": "/navigateToNewScreen",
+        "route": "/fetchDataFromInternet",
       },
       {
         "name": "Making authenticated requests",
