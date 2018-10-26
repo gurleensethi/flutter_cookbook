@@ -134,7 +134,7 @@ final items = [
       },
       {
         "name": "Making authenticated requests",
-        "route": "/sendDataToNewScreen",
+        "route": "/authenticatedRequests",
       },
       {
         "name": "Working with WebSockets",

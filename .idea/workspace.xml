@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="856eb30b-1bba-4366-88e6-6835ed257160" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/networking/fetch_data_from_internet/fetch_data_from_internet_code.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/networking/fetch_data_from_internet/fetch_data_from_internet_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/networking/authenticated_requests/authenticated_requests_code.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/networking/authenticated_requests/authenticated_requests_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/common/primary_app_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/primary_app_bar.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/item_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/item_list.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
@@ -20,7 +19,7 @@
     <session id="18726567">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="1" />
@@ -31,20 +30,20 @@
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="7" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Podfile" value="1" />
-          <entry key="dart" value="227" />
+          <entry key="dart" value="234" />
           <entry key="yaml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dart" value="227" />
+          <entry key="Dart" value="234" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="7" />
         </counts>
@@ -52,13 +51,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Podfile" value="31" />
-          <entry key="dart" value="24348" />
+          <entry key="dart" value="24819" />
           <entry key="yaml" value="109" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dart" value="24346" />
+          <entry key="Dart" value="24817" />
           <entry key="HTML" value="2" />
           <entry key="PLAIN_TEXT" value="31" />
           <entry key="YAML" value="109" />
@@ -68,11 +67,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/main.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="123" column="31" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/networking/authenticated_requests/authenticated_requests_page.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/networking/authenticated_requests/authenticated_requests_code.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/item_list.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1492">
+              <caret line="142" column="7" selection-start-line="142" selection-start-column="7" selection-end-line="142" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/networking/fetch_data_from_internet/fetch_data_from_internet_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="295">
+              <caret line="75" selection-start-line="75" selection-end-line="93" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -109,9 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
-        <option value="$PROJECT_DIR$/lib/images/cached_images/cached_images_page.dart" />
-        <option value="$PROJECT_DIR$/lib/lists/basic_list_code.dart" />
         <option value="$PROJECT_DIR$/lib/lists/basic_list_page.dart" />
         <option value="$PROJECT_DIR$/lib/lists/basic_list/basic_list_page.dart" />
         <option value="$PROJECT_DIR$/lib/lists/horizontal_list/horizontal_list_page.dart" />
@@ -155,11 +193,14 @@
         <option value="$PROJECT_DIR$/lib/main_list.dart" />
         <option value="$PROJECT_DIR$/lib/animation/fade_a_widget/fade_a_widget_code.dart" />
         <option value="$PROJECT_DIR$/lib/animation/fade_a_widget/fade_a_widget_page.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
-        <option value="$PROJECT_DIR$/lib/item_list.dart" />
         <option value="$PROJECT_DIR$/lib/networking/fetch_data_from_internet/fetch_data_from_internet_page.dart" />
         <option value="$PROJECT_DIR$/lib/networking/fetch_data_from_internet/fetch_data_from_internet_code.dart" />
         <option value="$PROJECT_DIR$/lib/common/primary_app_bar.dart" />
+        <option value="$PROJECT_DIR$/lib/networking/authenticated_requests/authenticated_page.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/item_list.dart" />
+        <option value="$PROJECT_DIR$/lib/networking/authenticated_requests/authenticated_requests_code.dart" />
+        <option value="$PROJECT_DIR$/lib/networking/authenticated_requests/authenticated_requests_page.dart" />
       </list>
     </option>
   </component>
@@ -175,8 +216,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,6 +241,13 @@
               <item name="flutter_cookbook" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="networking" type="462c0819:PsiDirectoryNode" />
+              <item name="authenticated_requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_cookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_cookbook" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="networking" type="462c0819:PsiDirectoryNode" />
               <item name="fetch_data_from_internet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -210,7 +258,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540389684138" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540567528984" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -304,27 +352,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/code_page/code_model.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/code_page/code_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lists/long_lists/long_lists_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/lists/long_lists/long_lists_code.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -617,9 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,23 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/item_list.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="119" column="31" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,10 +663,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/networking/fetch_data_from_internet/fetch_data_from_internet_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="295">
+          <caret line="75" selection-start-line="75" selection-end-line="93" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="123" column="31" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/item_list.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1492">
+          <caret line="142" column="7" selection-start-line="142" selection-start-column="7" selection-end-line="142" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Flutter/flutter/bin/cache/pkg/sky_engine/lib/_http/http.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="525" column="51" selection-start-line="525" selection-start-column="38" selection-end-line="525" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/networking/authenticated_requests/authenticated_requests_code.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/networking/authenticated_requests/authenticated_requests_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

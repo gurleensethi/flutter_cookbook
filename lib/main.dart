@@ -24,6 +24,7 @@ import 'package:flutter_cookbook/navigation/navigate_to_new_screen/navigate_to_n
 import 'package:flutter_cookbook/navigation/navigate_with_named_routes/navigate_with_named_routes_page.dart';
 import 'package:flutter_cookbook/navigation/return_data_from_screen/return_data_from_screen_page.dart';
 import 'package:flutter_cookbook/navigation/send_data_to_new_screen/send_data_to_new_screen_page.dart';
+import 'package:flutter_cookbook/networking/authenticated_requests/authenticated_requests_page.dart';
 import 'package:flutter_cookbook/networking/fetch_data_from_internet/fetch_data_from_internet_page.dart';
 
 void main() => runApp(new MyApp());
@@ -119,6 +120,9 @@ class MyApp extends StatelessWidget {
         },
         "/fetchDataFromInternet": (context) {
           return FetchDataFromInternetPage();
+        },
+        "/authenticatedRequests": (context) {
+          return AuthenticatedRequestsPage();
         }
       },
     );
