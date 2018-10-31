@@ -11,6 +11,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   url_launcher: ^3.0.3
   cached_network_image: ^0.4.2
+  web_socket_channel: ^1.0.9
 
 dev_dependencies:
   flutter_test:

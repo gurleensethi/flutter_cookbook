@@ -138,7 +138,7 @@ final items = [
       },
       {
         "name": "Working with WebSockets",
-        "route": "/returnDataFromScreen",
+        "route": "/workingWithWebSockets",
       },
       {
         "name": "Parsing JSON in the background",

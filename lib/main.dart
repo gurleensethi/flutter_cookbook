@@ -26,6 +26,7 @@ import 'package:flutter_cookbook/navigation/return_data_from_screen/return_data_
 import 'package:flutter_cookbook/navigation/send_data_to_new_screen/send_data_to_new_screen_page.dart';
 import 'package:flutter_cookbook/networking/authenticated_requests/authenticated_requests_page.dart';
 import 'package:flutter_cookbook/networking/fetch_data_from_internet/fetch_data_from_internet_page.dart';
+import 'package:flutter_cookbook/networking/working_with_websockets/working_with_websockets_page.dart';
 
 void main() => runApp(new MyApp());
 
@@ -123,6 +124,9 @@ class MyApp extends StatelessWidget {
         },
         "/authenticatedRequests": (context) {
           return AuthenticatedRequestsPage();
+        },
+        "/workingWithWebSockets": (context) {
+          return WorkingWithWebSocketsPage();
         }
       },
     );
