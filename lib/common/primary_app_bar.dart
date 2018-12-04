@@ -12,6 +12,7 @@ AppBar primaryAppBar({
   Widget leading,
 }) {
   return AppBar(
+    elevation: 1.0,
     title: Text(
       title,
       style: TextStyle(

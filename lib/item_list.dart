@@ -142,7 +142,7 @@ final items = [
       },
       {
         "name": "Parsing JSON in the background",
-        "route": "/navigateWithNamedRoutes",
+        "route": "/parsingJsonBackground",
       },
     ]
   },

@@ -11,9 +11,15 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter Cookbook'),
+        title: Row(
+          children: <Widget>[
+            Icon(Icons.code),
+            SizedBox(width: 16.0),
+            Text('Flutter Cookbook'),
+          ],
+        ),
         centerTitle: true,
-        elevation: 2.0,
+        elevation: 1.0,
       ),
       body: MainList(),
     );

@@ -27,6 +27,7 @@ import 'package:flutter_cookbook/navigation/send_data_to_new_screen/send_data_to
 import 'package:flutter_cookbook/networking/authenticated_requests/authenticated_requests_page.dart';
 import 'package:flutter_cookbook/networking/fetch_data_from_internet/fetch_data_from_internet_page.dart';
 import 'package:flutter_cookbook/networking/working_with_websockets/working_with_websockets_page.dart';
+import 'package:flutter_cookbook/networking/parsing_json_background/parsing_json_background_page.dart';
 
 void main() => runApp(new MyApp());
 
@@ -36,13 +37,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Flutter Cookbook',
-      theme: new ThemeData(
-        primaryColor: Colors.white,
-        primaryTextTheme: TextTheme(
-          body1: TextStyle(
-            color: Colors.white,
-          ),
-        ),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
       ),
       home: HomePage(),
       debugShowCheckedModeBanner: false,
@@ -127,6 +123,9 @@ class MyApp extends StatelessWidget {
         },
         "/workingWithWebSockets": (context) {
           return WorkingWithWebSocketsPage();
+        },
+        "/parsingJsonBackground": (context) {
+          return ParsingJsonBackgroundPage();
         }
       },
     );
