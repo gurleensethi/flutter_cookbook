@@ -43,11 +43,11 @@ List<Photo> parsePhotos(String responseBody) {
 class ParsingJsonBackgroundPage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return ParsongJsonBackgroundPageState();
+    return ParsingJsonBackgroundPageState();
   }
 }
 
-class ParsongJsonBackgroundPageState extends State<ParsingJsonBackgroundPage> {
+class ParsingJsonBackgroundPageState extends State<ParsingJsonBackgroundPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
