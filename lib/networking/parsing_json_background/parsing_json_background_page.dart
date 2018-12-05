@@ -56,23 +56,21 @@ class ParsingJsonBackgroundPageState extends State<ParsingJsonBackgroundPage> {
         title: 'Parsing Json in Background',
         link: 'https://flutter.io/docs/cookbook/networking/background-parsing',
         codes: [
-          CodeModel(
-            code: Code.httpDependency,
-            title: "Add the http package"
-          ),
+          CodeModel(code: Code.httpDependency, title: "Add the http package"),
           CodeModel(
             code: Code.photoClassModel,
             title: "Define the photo model",
-            description: "Model class to hold the photo data fetched."
+            description: "Model class to hold the photo data fetched.",
           ),
           CodeModel(
             code: Code.parsePhotos,
-            title: "Parse the response from network call"
+            title: "Parse the response from network call",
           ),
           CodeModel(
             code: Code.workingOnIsolate,
             title: "Work on different isolate",
-            description: "Use the compute function to execute the parsing function on different isolate.",
+            description:
+                "Use the compute function to execute the parsing function on different isolate.",
           ),
         ],
       ),

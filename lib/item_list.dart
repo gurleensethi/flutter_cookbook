@@ -151,8 +151,8 @@ final items = [
     "items": [
       {
         "name": "Storing key-value data on disk",
-        "route": "/navigateToNewScreen",
-      },
+        "route": "/storingKeyValueData",
+      },/**/
       {
         "name": "Reading and Writing Files",
         "route": "/sendDataToNewScreen",
