@@ -155,7 +155,7 @@ final items = [
       },/**/
       {
         "name": "Reading and Writing Files",
-        "route": "/sendDataToNewScreen",
+        "route": "/readingWritingFiles",
       },
     ]
   },

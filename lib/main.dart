@@ -29,6 +29,7 @@ import 'package:flutter_cookbook/networking/fetch_data_from_internet/fetch_data_
 import 'package:flutter_cookbook/networking/working_with_websockets/working_with_websockets_page.dart';
 import 'package:flutter_cookbook/networking/parsing_json_background/parsing_json_background_page.dart';
 import 'package:flutter_cookbook/persistence/storing_key_value_data/storing_key_value_data_page.dart';
+import 'package:flutter_cookbook/persistence/reading_writing_files/reading_writing_files_page.dart';
 
 void main() => runApp(new MyApp());
 
@@ -130,6 +131,11 @@ class MyApp extends StatelessWidget {
         },
         "/storingKeyValueData": (context) {
           return StoringKeyValueDataPage();
+        },
+        "/readingWritingFiles": (context) {
+          return ReadingWritingFilesPage(
+            counterStorage: CounterStorage(),
+          );
         }
       },
     );
