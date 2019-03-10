@@ -8,17 +8,16 @@ class GridListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: primaryAppBar(
-        context: context,
-        title: 'Grid List',
-        link: 'https://flutter.io/cookbook/lists/grid-lists/',
-        codes: [
-          CodeModel(
-            title: 'GridView',
-            description: 'Create a simple grid list using GridView.count',
-            code: Code.code,
-          ),
-        ]
-      ),
+          context: context,
+          title: 'Grid List',
+          link: 'https://flutter.io/cookbook/lists/grid-lists/',
+          codes: [
+            CodeModel(
+              title: 'GridView',
+              description: 'Create a simple grid list using GridView.count',
+              code: Code.code,
+            ),
+          ]),
       body: GridView.count(
         crossAxisCount: 2,
         children: List.generate(

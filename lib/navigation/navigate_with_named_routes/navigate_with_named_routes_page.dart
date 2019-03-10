@@ -25,7 +25,8 @@ class NavigateWithNamedRoutesPage extends StatelessWidget {
           ),
           CodeModel(
             title: 'Define named routes',
-            description: 'Define named routes in MaterialApp. For each route return the page that you want to be opened.',
+            description:
+                'Define named routes in MaterialApp. For each route return the page that you want to be opened.',
             code: Code.defineRoutes,
           ),
           CodeModel(

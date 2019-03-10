@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_cookbook/code_page/code_model.dart';
 import 'package:flutter_cookbook/common/primary_app_bar.dart';
-import 'package:flutter_cookbook/navigation/return_data_from_screen/return_data_from_screen_code.dart' as Code;
+import 'package:flutter_cookbook/navigation/return_data_from_screen/return_data_from_screen_code.dart'
+    as Code;
 
 class ReturnDataFromScreenPage extends StatelessWidget {
   @override
@@ -20,24 +21,25 @@ class ReturnDataFromScreenPage extends StatelessWidget {
           ),
           CodeModel(
             title: 'Selection Button',
-            description:
-            'Set up the button which will launch 2nd screen.',
+            description: 'Set up the button which will launch 2nd screen.',
             code: Code.selectionButton,
           ),
           CodeModel(
             title: 'Selection Screen',
             description:
-            'This is the second page from which data will be returned to the first screen.',
+                'This is the second page from which data will be returned to the first screen.',
             code: Code.selectionScreen,
           ),
           CodeModel(
             title: 'Response Buttons',
-            description: 'Send response back to first screen using Navigator.pop().',
+            description:
+                'Send response back to first screen using Navigator.pop().',
             code: Code.responseButtons,
           ),
           CodeModel(
             title: 'Show selection',
-            description: 'The the selection from 2nd screen in the first screen.',
+            description:
+                'The the selection from 2nd screen in the first screen.',
             code: Code.snackBar,
           ),
         ],

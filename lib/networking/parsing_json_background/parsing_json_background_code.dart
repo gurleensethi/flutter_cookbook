@@ -23,7 +23,8 @@ final parsePhotos = """List<Photo> parsePhotos(String responseBody) {
   return parsed.map<Photo>((json) => Photo.fromJson(json)).toList();
 }""";
 
-final workingOnIsolate = """Future<List<Photo>> fetchPhotos(http.Client client) async {
+final workingOnIsolate =
+    """Future<List<Photo>> fetchPhotos(http.Client client) async {
   final response =
       await client.get('https://jsonplaceholder.typicode.com/photos');
 

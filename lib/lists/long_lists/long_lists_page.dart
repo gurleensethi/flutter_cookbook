@@ -21,7 +21,8 @@ class LongListsPage extends StatelessWidget {
           ),
           CodeModel(
             title: 'Using Builder',
-            description: 'Use ListView.builder to generate long list. Make sure to provide the itemCount.',
+            description:
+                'Use ListView.builder to generate long list. Make sure to provide the itemCount.',
             code: Code.list,
           ),
         ],

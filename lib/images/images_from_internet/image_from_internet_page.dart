@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_cookbook/code_page/code_model.dart';
 import 'package:flutter_cookbook/common/primary_app_bar.dart';
-import 'package:flutter_cookbook/images/images_from_internet/images_from_internet_code.dart' as Code;
+import 'package:flutter_cookbook/images/images_from_internet/images_from_internet_code.dart'
+    as Code;
 
 class ImagesFromInternetPage extends StatelessWidget {
   @override

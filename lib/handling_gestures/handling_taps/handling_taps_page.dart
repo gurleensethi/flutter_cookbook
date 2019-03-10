@@ -9,17 +9,16 @@ class HandlingTapsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: primaryAppBar(
-        title: 'Handling Taps',
-        context: context,
-        link: 'https://flutter.io/cookbook/gestures/handling-taps/',
-        codes: [
-          CodeModel(
-            title: 'Detecting Taps',
-            description: 'Use GestureDetector to detect taps on any widget.',
-            code: Code.code,
-          ),
-        ]
-      ),
+          title: 'Handling Taps',
+          context: context,
+          link: 'https://flutter.io/cookbook/gestures/handling-taps/',
+          codes: [
+            CodeModel(
+              title: 'Detecting Taps',
+              description: 'Use GestureDetector to detect taps on any widget.',
+              code: Code.code,
+            ),
+          ]),
       body: Container(
         child: Center(
           child: MyButton(),

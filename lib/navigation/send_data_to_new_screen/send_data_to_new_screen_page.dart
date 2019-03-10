@@ -51,7 +51,8 @@ class SendDataToNewScreenPage extends StatelessWidget {
           ),
           CodeModel(
             title: 'Show second page with data',
-            description: 'Show the second page using Navigator and pass the data along with it.',
+            description:
+                'Show the second page using Navigator and pass the data along with it.',
             code: Code.navigator,
           ),
         ],

@@ -1,4 +1,5 @@
-final items = """final items = List<String>.generate(10000, (i) => "Item \$i");""";
+final items =
+    """final items = List<String>.generate(10000, (i) => "Item \$i");""";
 
 final list = """ListView.builder(
   itemCount: items.length,

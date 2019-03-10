@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_cookbook/code_page/code_model.dart';
 import 'package:flutter_cookbook/common/primary_app_bar.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:flutter_cookbook/persistence/storing_key_value_data/storing_key_value_data_code.dart' as Code;
+import 'package:flutter_cookbook/persistence/storing_key_value_data/storing_key_value_data_code.dart'
+    as Code;
 
 class StoringKeyValueDataPage extends StatefulWidget {
   @override
@@ -39,33 +40,32 @@ class StoringKeyValueDataPageState extends State<StoringKeyValueDataPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: primaryAppBar(
-        title: 'Storing key-value data',
-        context: context,
-        link:
-            'https://flutter.io/docs/cookbook/persistence/reading-writing-files',
-        codes: [
-          CodeModel(
-            title: 'Add Dependency',
-            description: 'Add shared_preferences dependency.',
-            code: Code.sharedPreferenceDependency,
-          ),
-          CodeModel(
-            title: 'Saving Data',
-            description: 'Save data into preferences.',
-            code: Code.savingData,
-          ),
-          CodeModel(
-            title: 'Reading Data',
-            description: 'Read data from preferences.',
-            code: Code.readData,
-          ),
-          CodeModel(
-            title: 'Remove Data',
-            description: 'Remove data from preferences.',
-            code: Code.removeData,
-          ),
-        ]
-      ),
+          title: 'Storing key-value data',
+          context: context,
+          link:
+              'https://flutter.io/docs/cookbook/persistence/reading-writing-files',
+          codes: [
+            CodeModel(
+              title: 'Add Dependency',
+              description: 'Add shared_preferences dependency.',
+              code: Code.sharedPreferenceDependency,
+            ),
+            CodeModel(
+              title: 'Saving Data',
+              description: 'Save data into preferences.',
+              code: Code.savingData,
+            ),
+            CodeModel(
+              title: 'Reading Data',
+              description: 'Read data from preferences.',
+              code: Code.readData,
+            ),
+            CodeModel(
+              title: 'Remove Data',
+              description: 'Remove data from preferences.',
+              code: Code.removeData,
+            ),
+          ]),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

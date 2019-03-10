@@ -98,10 +98,9 @@ class ReadingWritingFilesPageState extends State<ReadingWritingFilesPage> {
             description: 'Read value of counter from file.',
           ),
           CodeModel(
-            title: 'Write Counter',
-            code: Code.writeCounter,
-            description: 'Write value of counter to file.'
-          ),
+              title: 'Write Counter',
+              code: Code.writeCounter,
+              description: 'Write value of counter to file.'),
         ],
       ),
       body: Center(

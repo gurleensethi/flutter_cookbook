@@ -1,6 +1,7 @@
 final websocketDependency = """web_socket_channel: ^1.0.9""";
 
-final ioChannel = """final channel = IOWebSocketChannel.connect('ws://echo.websocket.org');""";
+final ioChannel =
+    """final channel = IOWebSocketChannel.connect('ws://echo.websocket.org');""";
 
 final streamBuilder = """StreamBuilder(
   stream: widget.channel.stream,

@@ -9,17 +9,16 @@ class DisplayingSnackbarsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: primaryAppBar(
-        title: "Displaying Snackbars",
-        context: context,
-        link: "https://flutter.io/cookbook/design/snackbars/",
-        codes: [
-          CodeModel(
-            title: "Snackbars",
-            description: "Showing a simple snackbar.",
-            code: Code.snackbar,
-          ),
-        ]
-      ),
+          title: "Displaying Snackbars",
+          context: context,
+          link: "https://flutter.io/cookbook/design/snackbars/",
+          codes: [
+            CodeModel(
+              title: "Snackbars",
+              description: "Showing a simple snackbar.",
+              code: Code.snackbar,
+            ),
+          ]),
       body: DisplayingSnackbars(),
     );
   }
@@ -34,14 +33,14 @@ class DisplayingSnackbars extends StatelessWidget {
           child: Text('Show SnackBar'),
           onPressed: () {
             Scaffold.of(context).showSnackBar(
-                  SnackBar(
-                    content: Text('Yay! A SnackBar!'),
-                    action: SnackBarAction(
-                      label: "Undo",
-                      onPressed: () {},
-                    ),
-                  ),
-                );
+              SnackBar(
+                content: Text('Yay! A SnackBar!'),
+                action: SnackBarAction(
+                  label: "Undo",
+                  onPressed: () {},
+                ),
+              ),
+            );
           },
         ),
       ),

@@ -1,6 +1,5 @@
 final code = {
-  "theme":
-      """Theme(
+  "theme": """Theme(
   // Create a unique theme with "ThemeData"
   data: ThemeData(
     accentColor: Colors.yellow,
@@ -10,8 +9,7 @@ final code = {
     child: Icon(Icons.add),
   ),
 );""",
-  "main_theme":
-      """MaterialApp(
+  "main_theme": """MaterialApp(
   title: title,
   theme: ThemeData(
     brightness: Brightness.dark,

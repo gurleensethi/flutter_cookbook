@@ -24,29 +24,30 @@ class FadeAWidgetPageState extends State<FadeAWidgetPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: primaryAppBar(
-        context: context,
-        title: 'Fade a widget',
-        link: 'https://flutter.io/cookbook/animation/opacity-animation/',
-        codes: [
-          CodeModel(
-            title: 'Visible Variable',
-            description: 'In the Stateful widget, define a variable that will '
-              'decide if the widget is visible or not.',
-            code: Code.visibleVariable,
-          ),
-          CodeModel(
-            title: 'Toggle Button',
-            description: 'Add a FloatingActionButton to toggle the visibility.',
-            code: Code.visibleButton,
-          ),
-          CodeModel(
-            title: 'AnimatedOpacity Widget',
-            description: 'Use the AnimatedOpacity widget to fade in and out '
-              'the desired widget.',
-            code: Code.animatedOpacity,
-          ),
-        ]
-      ),
+          context: context,
+          title: 'Fade a widget',
+          link: 'https://flutter.io/cookbook/animation/opacity-animation/',
+          codes: [
+            CodeModel(
+              title: 'Visible Variable',
+              description:
+                  'In the Stateful widget, define a variable that will '
+                  'decide if the widget is visible or not.',
+              code: Code.visibleVariable,
+            ),
+            CodeModel(
+              title: 'Toggle Button',
+              description:
+                  'Add a FloatingActionButton to toggle the visibility.',
+              code: Code.visibleButton,
+            ),
+            CodeModel(
+              title: 'AnimatedOpacity Widget',
+              description: 'Use the AnimatedOpacity widget to fade in and out '
+                  'the desired widget.',
+              code: Code.animatedOpacity,
+            ),
+          ]),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // Make sure we call setState! This will tell Flutter to rebuild the
