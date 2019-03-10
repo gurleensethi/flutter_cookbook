@@ -1,34 +1,85 @@
 final items = [
   {
-    "name": "Design Basics",
+    "name": "Animation",
     "items": [
       {
-        "name": "Using Themes to share colors and font styles",
-        "route": "/usingThemes",
+        "name": "Fade a Widget in and out",
+        "route": "/fadeAWidget",
+      },
+    ],
+  },
+  {
+    "name": "Design",
+    "items": [
+      {
+        "name": "Add a Drawer to a screen",
+        "route": "/addingDrawer",
       },
       {
         "name": "Displaying SnackBars",
         "route": "/displayingSnackbars",
       },
       {
-        "name": "Working with Tabs",
-        "route": "/workingWithTabsPage",
+        "name": "Exporting fonts from a package",
+        "route": "/exportingFontsPackages",
+      },
+      {
+        "name": "Updating the UI based on orientation",
+        "route": "/uiOrientation",
+      },
+      {
+        "name": "Using Themes to share colors and font styles",
+        "route": "/usingThemes",
       },
       {
         "name": "Using custom fonts",
         "route": "/customFonts",
       },
       {
-        "name": "Exporting fonts from a package",
-        "route": "/exportingFontsPackages",
+        "name": "Working with Tabs",
+        "route": "/workingWithTabsPage",
+      },
+    ]
+  },
+  {
+    "name": "Forms",
+    "items": [
+      {
+        "name": "Building a form with validation",
+//        "route": "/navigateWithNamedRoutes",
       },
       {
-        "name": "Add a Drawer to a screen",
-        "route": "/addingDrawer",
+        "name": "Create and style a text field",
+//        "route": "/navigateToNewScreen",
       },
       {
-        "name": "Updating the UI based on orientation",
-        "route": "/uiOrientation",
+        "name": "Focus a text field",
+//        "route": "/navigateWithNamedRoutes",
+      },
+      {
+        "name": "Handling changes to a text field",
+//        "route": "/returnDataFromScreen",
+      },
+      {
+        "name": "Retrieve the value of a text field",
+//        "route": "/sendDataToNewScreen",
+      },
+    ]
+  },
+  {
+    "name": "Gestures",
+    "items": [
+      {
+        "name": "Adding Material Touch ripples",
+        "route": "/materialTouchRipples",
+      },
+      {
+        "name": "Handling Taps",
+        "route": "/handlingTaps",
+      },
+      {
+        "name": "Implement Swipe to Dismiss",
+        "route": "/swipeToDismiss",
       },
     ]
   },
@@ -53,41 +104,27 @@ final items = [
     "name": "Lists",
     "items": [
       {
-        "name": "Create a basic list",
+        "name": "Basic list",
         "route": "/basicList",
       },
       {
-        "name": "Make a horizontal list",
+        "name": "Create a horizontal list",
         "route": "/horizontalList",
       },
       {
-        "name": "Working with long lists",
-        "route": "/longLists",
+        "name": "Creating a grid List",
+        "route": "/gridList",
       },
       {
         "name": "Creating lists with different types of items",
         "route": "/listDifferentItems",
       },
       {
-        "name": "Creating a grid List",
-        "route": "/gridList",
-      },
-    ]
-  },
-  {
-    "name": "Handling Gestures",
-    "items": [
-      {
-        "name": "Handling Taps",
-        "route": "/handlingTaps",
+        "name": "Place a floating app bar above a list",
       },
       {
-        "name": "Adding Material Touch ripples",
-        "route": "/materialTouchRipples",
-      },
-      {
-        "name": "Implement Swipe to Dismiss",
-        "route": "/swipeToDismiss",
+        "name": "Working with long lists",
+        "route": "/longLists",
       },
     ]
   },
@@ -95,35 +132,26 @@ final items = [
     "name": "Navigation",
     "items": [
       {
+        "name": "Animating a Widget across screens",
+        "route": "/animatingAcrossScreens",
+      },
+      {
         "name": "Navigate to a new screen and back",
         "route": "/navigateToNewScreen",
-      },
-      {
-        "name": "Send data to a new screen",
-        "route": "/sendDataToNewScreen",
-      },
-      {
-        "name": "Return data from a screen",
-        "route": "/returnDataFromScreen",
       },
       {
         "name": "Navigate with named routes",
         "route": "/navigateWithNamedRoutes",
       },
       {
-        "name": "Animating a Widget across screens",
-        "route": "/animatingAcrossScreens",
+        "name": "Return data from a screen",
+        "route": "/returnDataFromScreen",
+      },
+      {
+        "name": "Send data to a new screen",
+        "route": "/sendDataToNewScreen",
       },
     ]
-  },
-  {
-    "name": "Animation",
-    "items": [
-      {
-        "name": "Fade a Widget in and out",
-        "route": "/fadeAWidget",
-      },
-    ],
   },
   {
     "name": "Networking",
@@ -137,12 +165,12 @@ final items = [
         "route": "/authenticatedRequests",
       },
       {
-        "name": "Working with WebSockets",
-        "route": "/workingWithWebSockets",
-      },
-      {
         "name": "Parsing JSON in the background",
         "route": "/parsingJsonBackground",
+      },
+      {
+        "name": "Working with WebSockets",
+        "route": "/workingWithWebSockets",
       },
     ]
   },
@@ -150,37 +178,15 @@ final items = [
     "name": "Persistence",
     "items": [
       {
+        "name": "Persist data with SQLite",
+      },
+      {
         "name": "Storing key-value data on disk",
         "route": "/storingKeyValueData",
-      },/**/
+      },
       {
         "name": "Reading and Writing Files",
         "route": "/readingWritingFiles",
-      },
-    ]
-  },
-  {
-    "name": "Forms",
-    "items": [
-      {
-        "name": "Create and style a text field",
-        "route": "/navigateToNewScreen",
-      },
-      {
-        "name": "Retrieve the value of a text field",
-        "route": "/sendDataToNewScreen",
-      },
-      {
-        "name": "Handling changes to a text field",
-        "route": "/returnDataFromScreen",
-      },
-      {
-        "name": "Focus a text field",
-        "route": "/navigateWithNamedRoutes",
-      },
-      {
-        "name": "Building a form with validation",
-        "route": "/navigateWithNamedRoutes",
       },
     ]
   },
