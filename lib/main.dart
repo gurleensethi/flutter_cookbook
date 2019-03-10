@@ -14,6 +14,7 @@ import 'package:flutter_cookbook/home.dart';
 import 'package:flutter_cookbook/images/cached_images/cached_images_page.dart';
 import 'package:flutter_cookbook/images/fade_in_images/fade_in_images_page.dart';
 import 'package:flutter_cookbook/images/images_from_internet/image_from_internet_page.dart';
+import 'package:flutter_cookbook/info_page/info_page.dart';
 import 'package:flutter_cookbook/lists/basic_list/basic_list_page.dart';
 import 'package:flutter_cookbook/lists/grid_list/grid_list_page.dart';
 import 'package:flutter_cookbook/lists/horizontal_list/horizontal_list_page.dart';
@@ -45,6 +46,9 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       debugShowCheckedModeBanner: false,
       routes: {
+        "/infoPage": (context) {
+          return InfoPage();
+        },
         "/usingThemes": (context) {
           return UsingThemesPage();
         },

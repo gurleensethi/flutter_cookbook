@@ -20,6 +20,14 @@ class HomePageState extends State<HomePage> {
         ),
         centerTitle: true,
         elevation: 1.0,
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.info),
+            onPressed: () {
+              Navigator.of(context).pushNamed("/infoPage");
+            },
+          ),
+        ],
       ),
       body: MainList(),
     );
