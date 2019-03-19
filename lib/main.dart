@@ -16,6 +16,7 @@ import 'package:flutter_cookbook/images/fade_in_images/fade_in_images_page.dart'
 import 'package:flutter_cookbook/images/images_from_internet/image_from_internet_page.dart';
 import 'package:flutter_cookbook/info_page/info_page.dart';
 import 'package:flutter_cookbook/lists/basic_list/basic_list_page.dart';
+import 'package:flutter_cookbook/lists/floating_action_app_bar/floating_action_app_bar_page.dart';
 import 'package:flutter_cookbook/lists/grid_list/grid_list_page.dart';
 import 'package:flutter_cookbook/lists/horizontal_list/horizontal_list_page.dart';
 import 'package:flutter_cookbook/lists/list_different_items/list_different_items_page.dart';
@@ -140,6 +141,9 @@ class MyApp extends StatelessWidget {
           return ReadingWritingFilesPage(
             counterStorage: CounterStorage(),
           );
+        },
+        "/floatingActionAppBar": (context) {
+          return FloatingActionAppBarPage();
         }
       },
     );

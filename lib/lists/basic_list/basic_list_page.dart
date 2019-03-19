@@ -8,17 +8,18 @@ class BasicListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: primaryAppBar(
-          context: context,
-          title: 'Basic List',
-          link: 'https://flutter.io/cookbook/lists/basic-list/',
-          codes: [
-            CodeModel(
-              title: 'Create a ListView',
-              description:
-                  'Add content to ListView to create a list. You can add any type of Widget as children.',
-              code: Code.listCode,
-            ),
-          ]),
+        context: context,
+        title: 'Basic List',
+        link: 'https://flutter.io/cookbook/lists/basic-list/',
+        codes: [
+          CodeModel(
+            title: 'Create a ListView',
+            description:
+                'Add content to ListView to create a list. You can add any type of Widget as children.',
+            code: Code.listCode,
+          ),
+        ],
+      ),
       body: ListView(
         children: <Widget>[
           ListTile(

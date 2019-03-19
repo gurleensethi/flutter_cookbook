@@ -121,6 +121,7 @@ final items = [
       },
       {
         "name": "Place a floating app bar above a list",
+        "route": "/floatingActionAppBar",
       },
       {
         "name": "Working with long lists",
