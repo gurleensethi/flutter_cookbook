@@ -37,7 +37,8 @@ class FloatingActionAppBarPage extends StatelessWidget {
                       ),
                       CodeModel(
                         title: 'Add a SliverList',
-                        description: 'Add a large list to see the app bar scrolling behaviour into effect',
+                        description:
+                            'Add a large list to see the app bar scrolling behaviour into effect',
                         code: Code.sliverList,
                       ),
                     ],

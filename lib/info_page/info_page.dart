@@ -90,9 +90,7 @@ class InfoPage extends StatelessWidget {
 
   Widget get _socialLinks {
     return Column(
-      children: <Widget>[
-
-      ],
+      children: <Widget>[],
     );
   }
 }
